@@ -1,0 +1,24 @@
+h1{
+    animation: dreh 3s  infinite ease-out;
+}
+@keyframes dreh{
+to{
+    rotate: 360deg;
+}
+}
+div{
+    display: flex;
+    justify-content:center;
+}
+body{
+    background: lightblue;
+    margin: 50px;
+     font-family:'Courier New', Courier, monospace;
+}
+button{
+    background: rgba(255, 77, 77, 0.803);
+    border-radius: 15px
+}
+.class{
+    animation: dreh 5s infinite ease-out;
+}
